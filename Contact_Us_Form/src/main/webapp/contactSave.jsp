@@ -33,12 +33,9 @@
 
     .row{
 
-        margin-top: 20%;
+        margin-top: 10%;
 
         margin-left:35%;
-
-        width: 100%;
-
     }
 
 </style>
@@ -78,18 +75,10 @@
 	
 	</form>
 	<form method="post" action="/showContact">
-<div class="row">
-
-        <div class="col s12 m6">
-
-          <div class="card white">
-
-            <div class="card-content black-text">
-		<input type="submit" value="AllContacts"> 
+	<div class="center">
+	<input type="submit" value="AllContacts"> 
 	</div>
-	</div>
-	</div>
-	</div>
+		
 </form>
 
     

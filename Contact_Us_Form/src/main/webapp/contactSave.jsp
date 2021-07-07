@@ -77,6 +77,21 @@
 			
 	
 	</form>
+	<form method="post" action="/showContact">
+<div class="row">
+
+        <div class="col s12 m6">
+
+          <div class="card white">
+
+            <div class="card-content black-text">
+		<input type="submit" value="AllContacts"> 
+	</div>
+	</div>
+	</div>
+	</div>
+</form>
+
     
 </body>
 

@@ -52,13 +52,13 @@
 
               <span class="card-title center">Contact Us</span>
 
-              <input type="text" placeholder="Enter the name" id="name" name="name"/>
+              <input type="text" placeholder="Enter the name" id="name" name="name" required/>
 
-              <input type="email" placeholder="Enter Email" id="email" name="email"/>
+              <input type="email" placeholder="Enter Email" id="email" name="email" required/>
 
-              <input type="text" placeholder="Enter the number" id="mobile" name="mobile"/>
+              <input type="text" placeholder="Enter the number" id="mobile" name="mobile" required/>
 
-              <input type="text" placeholder="Enter Message" id="message" name="message"/>
+              <input type="text" placeholder="Enter Message" id="message" name="message" required />
 			  
 			  <input type="submit" value="SAVE USER">
             </div>

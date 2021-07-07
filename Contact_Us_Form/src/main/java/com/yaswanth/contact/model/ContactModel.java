@@ -10,72 +10,76 @@ import javax.persistence.Table;
 @Table(name = "contactUs")
 public class ContactModel {
 
-	
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long id;
-	
-	private String name;
-	
-	private String mobile;
-	
-	private String email;
-	
-	private String message;
 
-	public Long getId() {
-		return id;
-	}
+@Id
+@GeneratedValue(strategy = GenerationType.IDENTITY)
+private Long id;
 
-	public void setId(Long id) {
-		this.id = id;
-	}
+private String name;
 
-	public String getName() {
-		return name;
-	}
+private String mobile;
 
-	public void setName(String name) {
-		this.name = name;
-	}
+private String email;
 
-	public String getMobile() {
-		return mobile;
-	}
+private String message;
 
-	public void setMobile(String mobile) {
-		this.mobile = mobile;
-	}
+public Long getId() {
+return id;
+}
 
-	public String getEmail() {
-		return email;
-	}
+public void setId(Long id) {
+this.id = id;
+}
 
-	public void setEmail(String email) {
-		this.email = email;
-	}
+public String getName() {
+return name;
+}
 
-	public String getMessage() {
-		return message;
-	}
+public void setName(String name) {
+this.name = name;
+}
 
-	public void setMessage(String message) {
-		this.message = message;
-	}
+public String getMobile() {
+return mobile;
+}
 
-	public ContactModel(String name, String mobile, String email, String message) {
-		super();
-		this.name = name;
-		this.mobile = mobile;
-		this.email = email;
-		this.message = message;
-	}
+public void setMobile(String mobile) {
+this.mobile = mobile;
+}
 
-	@Override
-	public String toString() {
-		return "ContactModel [name=" + name + ", mobile=" + mobile + ", email=" + email + ", message=" + message + "]";
-	}
-	
-	
+public String getEmail() {
+return email;
+}
+
+public void setEmail(String email) {
+this.email = email;
+}
+
+public String getMessage() {
+return message;
+}
+
+public void setMessage(String message) {
+this.message = message;
+}
+
+public ContactModel(String name, String mobile, String email, String message) {
+super();
+this.name = name;
+this.mobile = mobile;
+this.email = email;
+this.message = message;
+}
+
+public ContactModel()
+{
+
+}
+@Override
+public String toString() {
+return "ContactModel [name=" + name + ", mobile=" + mobile + ", email=" + email + ", message=" + message + "]";
+}
+
+
 
 }

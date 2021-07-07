@@ -7,16 +7,50 @@
 <meta charset="ISO-8859-1">
 <title>AllContacts</title>
 </head>
+	<style>
+		table, th, td {
+	border: 1px black solid;
+}
+		table{
+			border-collapse: collapse;
+		}
+	</style>
 <body>
-		<c:forEach var="contacts" items="${ contacts}">
-			
-	<h3>${contacts.name }</h3>
-	<h3>${contacts.mobile }</h3>
-	<h3>${contacts.email }</h3>
-	<h3>${contacts.message }</h3>
-	
-	<br>
-	<br>
-		</c:forEach>
+
+<table>
+
+    <tr>
+
+      <th>Name</th>
+
+      <th>Email</th>
+
+      <th>MobileNumber</th>
+
+      <th>Message</th>
+
+    </tr>
+<c:forEach var="contacts" items="${ contacts}">
+    <tr>
+
+      <td>${contacts.name }</td>
+
+      <td>${contacts.mobile }</td>
+
+      <td>${contacts.email }</td>
+
+      <td>${contacts.message }</td>
+
+    </tr>
+          </br>
+      </br>
+    
+    </c:forEach>
+
+</table>
+
+
+
+
 </body>
 </html>

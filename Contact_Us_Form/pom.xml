@@ -8,7 +8,7 @@
 		<version>2.6.0-SNAPSHOT</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.prithvy</groupId>
+	<groupId>com.yaswanth</groupId>
 	<artifactId>Contact_Us_Form</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Contact_Us_Form</name>
